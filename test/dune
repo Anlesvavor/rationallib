@@ -1,2 +1,4 @@
-(test
- (name rationallib))
+(executable
+ (name test)
+ (libraries ounit2 rationallib)
+)
